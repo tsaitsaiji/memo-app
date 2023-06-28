@@ -1,0 +1,77 @@
+.app {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: transparent;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-container input {
+    margin-right: 10px;
+  }
+  
+  .memo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .delete-button {
+    padding: 2px 6px;
+    background-color: #ff0000;}
+
+
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        background-color: #4CAF50;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .button:hover {
+        background-color: #45a049;
+      }
+      
+      .button:active {
+        background-color: #3e8e41;
+      }
+      
+      .button:focus {
+        outline: none;
+      }
+      .memo-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+      }
+      
+      .memo-item:last-child {
+        border-bottom: none;
+      }
+
+      .container {
+        border: 2px solid black;
+        background-color: transparent;
+        margin-bottom: 20px;
+        transform: translateY(0); /* 初始位置 */
+        transition: transform 0.3s ease; /* 添加过渡效果 */
+      }
+      
+      .container.movedown {
+        transform: translateY(60px); /* 向下移动的距离 */
+      }
