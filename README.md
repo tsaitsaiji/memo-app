@@ -1,3 +1,7 @@
+創建檔案時先終端機執行　npx create-react-app (下載執行時不用)
+
+cd xxx/xxx/memo-app/> npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
